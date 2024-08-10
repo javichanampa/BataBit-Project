@@ -98,6 +98,120 @@ header img {
     background-image: url(./icons/down-arrow.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
 
+
+main {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: var(--off-white);
+}
+.main-exchange-container{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.main-title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: auto;
+}
+.main-title h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--black);
+}
+.main-title p{
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #757575;
+}
+.image-bitcoin{
+    width: 195px;
+    height: 195px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url(./img/Bitcoin.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* table */
+.exchanges-table-conteiner{
+    width: 65%;
+    margin: 0 auto;
+    min-width: 288px;
+    max-width: 900px;
+}
+.table-conteiner h3{
+    color: var(--bitcoin-orange);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.44px;
+    text-align: left;
+    margin: 0 auto 12px auto;
+    width: 60%;
+    padding-top: 40px;
+}
+.grid-table-conteiner{
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    background-color: var(--just-white);
+    border-radius: 8px;
+    padding-top: 12pxpx;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    place-content: center;
+    
 
 }
+.table-element h4{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: var(--grey);
+    border-right: 1px solid var(--off-white);
+    border-bottom: var(--off-white);
+    text-align: left;
+}
+.table-element-value h5{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #757575;
+}
+.arrow-down{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url(icons/trending-down.svg);
+    margin-left: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.arrow-up{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url(icons/trending-up.svg);
+    margin-left: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
