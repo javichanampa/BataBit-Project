@@ -213,5 +213,131 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 }
+.table-update{
+    color: var(--warm-black);
+    background-color: var(--soft-orange);
+    margin: 0 auto;
+    width: 173px;
+    height: 31px;
+    margin-top: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    
+}
+.table-update span{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+/* Features */
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    margin: 0 auto;
+    min-width: 288px;
+    max-width: 900px;
+    background-color: var(--warm-black);
+}
+.product-detail-batata-logo{
+    position: absolute;
+    width: 37.45px;
+    height: 24px;
+    top: -10px;
+    left: calc(50% - 20px);
+    background-image: url(icons/batata.svg);
+}
+.product-detail-title h2{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    color: var(--just-white);
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.product-detail-title p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #808080;
+    text-align: center;
+}
+/* Articles */
+.product-detail-card{
+    display: block;
+    width: 100%;
+    min-width: 288px;
+    max-width: 400px;;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius:5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    
+}
+/* Icons */
+.product-detail-card span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-detail-card .clock {
+    background-image: url(icons/clock.svg);
+}
+.product-detail-card .eye{
+    background-image: url(icons/eye.svg);
+}
+.product-detail-card .dollar{
+    background-image: url(icons/dollar-sign.svg);
+}
+.product-detail-card .check{
+    background-image: url(icons/check-circle.svg);
+}
+
+.product-card-title{
+    font-size: 18px;
+    line-height: 18px;
+    color: var(--just-white);
+    font-weight: 700;
+}
+.product-card-body{
+    font-size: 14px;
+    color: #808080;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.bitcoin-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url(img/bitcoinbaby2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bitcoin-img-container h3 {
+    font-size: 24px;
+    color: var(--just-white);
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    padding: 64px;
+}
+
+
+
 
 
